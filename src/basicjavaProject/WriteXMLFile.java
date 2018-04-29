@@ -23,14 +23,19 @@ public class WriteXMLFile {
 			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
 
+			
 			// root elements
 			Document doc = docBuilder.newDocument();
 			Element rootElement = doc.createElement("Equity");
 			doc.appendChild(rootElement);
 
+			for(int i=1;i<10;i++)
+			{
+				Element staff = doc.createElement("BHEL");
+				rootElement.appendChild(staff);	
+			}
 			// staff elements
-			Element staff = doc.createElement("BHEL");
-			rootElement.appendChild(staff);
+			
 
 			// set attribute to staff element
 			Attr attr = doc.createAttribute("ISIN_Number");
