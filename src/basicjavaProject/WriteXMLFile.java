@@ -25,15 +25,15 @@ public class WriteXMLFile {
 
 			// root elements
 			Document doc = docBuilder.newDocument();
-			Element rootElement = doc.createElement("company");
+			Element rootElement = doc.createElement("Equity");
 			doc.appendChild(rootElement);
 
 			// staff elements
-			Element staff = doc.createElement("Staff");
+			Element staff = doc.createElement("BHEL");
 			rootElement.appendChild(staff);
 
 			// set attribute to staff element
-			Attr attr = doc.createAttribute("id");
+			Attr attr = doc.createAttribute("ISIN_Number");
 			attr.setValue("1");
 			staff.setAttributeNode(attr);
 
@@ -41,23 +41,23 @@ public class WriteXMLFile {
 			// staff.setAttribute("id", "1");
 
 			// firstname elements
-			Element firstname = doc.createElement("firstname");
-			firstname.appendChild(doc.createTextNode("yong"));
+			Element firstname = doc.createElement("WeekHigh52");
+			firstname.appendChild(doc.createTextNode("473.50"));
 			staff.appendChild(firstname);
 
 			// lastname elements
-			Element lastname = doc.createElement("lastname");
-			lastname.appendChild(doc.createTextNode("mook kim"));
+			Element lastname = doc.createElement("Weeklow52");
+			lastname.appendChild(doc.createTextNode("210.50"));
 			staff.appendChild(lastname);
 
 			// nickname elements
-			Element nickname = doc.createElement("nickname");
-			nickname.appendChild(doc.createTextNode("mkyong"));
+			Element nickname = doc.createElement("MarketCap");
+			nickname.appendChild(doc.createTextNode("500000"));
 			staff.appendChild(nickname);
 
 			// salary elements
-			Element salary = doc.createElement("salary");
-			salary.appendChild(doc.createTextNode("100000"));
+			Element salary = doc.createElement("Beta");
+			salary.appendChild(doc.createTextNode("1.2"));
 			staff.appendChild(salary);
 
 			// write the content into xml file
