@@ -31,11 +31,11 @@ public class WriteXMLFile {
 
 			for(int i=1;i<10;i++)
 			{
-				Element staff = doc.createElement("BHEL");
-				rootElement.appendChild(staff);	
+					
 			}
 			// staff elements
-			
+			Element staff = doc.createElement("BHEL");
+			rootElement.appendChild(staff);
 
 			// set attribute to staff element
 			Attr attr = doc.createAttribute("ISIN_Number");
