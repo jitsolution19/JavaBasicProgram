@@ -5,8 +5,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-4.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-examples-4.0.1.jar"/>

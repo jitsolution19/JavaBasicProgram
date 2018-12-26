@@ -1,10 +1,10 @@
 package oopsLearning;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class ChildClass extends ParentClass{
 	
-@Test
+@Test()
 public void testing()
 {
 //	this.name="Akansha";
