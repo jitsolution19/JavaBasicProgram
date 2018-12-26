@@ -9,6 +9,7 @@ public class SetData {
 		Entry.put("Name","Jitendra");
 		Entry.put("Name","Akansha");
 		Entry.put("Name","Golu");
+		Entry.put("Age","23");
 		System.out.println(Entry.get("Name"));
 	}
 
