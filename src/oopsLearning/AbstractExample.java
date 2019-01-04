@@ -29,7 +29,7 @@ public class AbstractExample extends Bike {
 
 	@Test
 	public void Enfield_Average() {
-		Bike obj = new AbstractExample();
+		AbstractExample obj = new AbstractExample();
 		int distance = obj.getDistance(39423, 38940);
 		double fuel = obj.fuelInfo(1200, 74.69);
 		obj.getAverage(distance, fuel);
