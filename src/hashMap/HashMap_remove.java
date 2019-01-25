@@ -13,6 +13,8 @@ public class HashMap_remove {
 		// Remove value for key 102
 		map.remove(102);
 		System.out.println("Values after remove: " + map);
+		map.put(104,"NetWork Analysis");
+		System.out.println(map.values());
 	}
 
 }
