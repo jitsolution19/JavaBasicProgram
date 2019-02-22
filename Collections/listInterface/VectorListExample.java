@@ -11,7 +11,6 @@ public class VectorListExample {
 		vec.add(2);
 		vec.add(3);
 		vec.add(1);
-		
 		for(int k:vec)
 		{
 			System.out.println(k);
