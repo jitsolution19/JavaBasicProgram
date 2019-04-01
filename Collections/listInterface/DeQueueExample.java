@@ -13,12 +13,15 @@ public class DeQueueExample {
 		dec.add(1);
 		dec.add(3);
 		dec.add(2);
-				
+		
+		System.out.println("Array Queue List is as follow :: "); 
+		
 		for(int value:dec)
 		{
 			System.out.println(value);
 		}
 
+		System.out.println("Priority Queue List is as follow :: ");
 		Queue<Integer> quu = new PriorityQueue<>();
 		quu.add(2);
 		quu.add(1);
@@ -28,9 +31,9 @@ public class DeQueueExample {
 			System.out.println(val);
 		}
 	
-		System.out.println(quu.peek());
+		System.out.println("Peek Value :: "+quu.peek());
 		quu.remove();
-		System.out.println(quu.poll());
+		System.out.println("Poll value :: "+quu.poll());
 		
 			
 	
