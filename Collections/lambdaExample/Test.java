@@ -18,6 +18,7 @@ public class Test {
 	public static void main(String[] args) {
 		func1 add = (int x,int y)->x+y;
 		func1 multiply = (int x,int y)->x*y;
+		func1 division = (int x,int y)->x/y;
 		
 		Test tobj = new Test();  
         System.out.println("Addition is " + 
@@ -25,6 +26,9 @@ public class Test {
    
         System.out.println("Multiplication is " + 
                           tobj.operate(6, 3, multiply));
+        
+        System.out.println("Division is " + 
+                tobj.operate(6, 3, division));
 
 	}
 

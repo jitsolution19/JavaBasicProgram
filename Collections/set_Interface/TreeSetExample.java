@@ -7,10 +7,11 @@ public class TreeSetExample {
 	public static void main(String[] args) {
 		TreeSet<String> set = new TreeSet<String>();
 		set.add("A");
-		set.add("B");
-		set.add("C");
 		set.add("D");
 		set.add("E");
+		set.add("B");
+		set.add("C");
+		
 
 		System.out.println("Intial Set: " + set);
 
@@ -22,6 +23,11 @@ public class TreeSetExample {
 		
 		System.out.println("SubSet: "+set.subSet("A", false, "E", true)); 
 
+		
+		for(String val:set)
+		{
+			System.out.println(val);
+		}
 	}
 
 }
